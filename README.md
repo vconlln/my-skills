@@ -11,6 +11,20 @@
 | 场景驱动方案设计 | [solution-design/](solution-design/) | 有旧代码/旧方案背景的深度方案设计：现状摸底 → 质询式需求识别（结构化模板）→ 升级/新开发判定 → 可追溯的方案产出 |
 | 技能创建指南 | [skill-create/](skill-create/) | 创建新 Agent Skill 的方法论：结构约定、描述写法、常见反模式 |
 
+## 开发流程闭环
+
+五阶段路由（轻量默认 → 深度版按需升级）：
+
+| 阶段 | 默认（轻量） | 深度版 |
+|------|--------------|--------|
+| 需求理解 | dev-workflow | solution-design Step 1-3（质询式 + 结构化需求模板） |
+| 方案设计 | dev-workflow | solution-design（旧方案参考 + 升级/新开发判定） |
+| 代码实现 | dev-workflow | spec-driven-coding（规范 + 公共库 + shell_check 门禁） |
+| 代码审查 | dev-workflow（review-kit） | — |
+| Bug 修复 | dev-workflow | — |
+
+需要人工补充的留空项与刻意不做的边界，见各技能 README 的「留空待填充」「已知边界」小节。
+
 ## 使用方式
 
 克隆后把需要的技能软链到 Agent 的技能目录，例如 Claude Code：

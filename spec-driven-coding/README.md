@@ -83,6 +83,12 @@ spec-driven-coding/
 | 检查命令 | `shellcheck --severity=warning` | 静态检查，警告级及以上必须清零 |
 ```
 
+## 已知边界（刻意留白）
+
+- **无测试规范**：Step 4 仅内置 shell_check 静态检查门禁；单元/集成测试要求请填入 `reference/STANDARDS.md` 第 5 节（编码强制约定），需要独立测试技能时另行创建
+- **无需求/方案设计能力**：上游交给 `solution-design`（深度）或 `dev-workflow`（轻量），本技能只负责编码阶段
+- **术语/领域建模**：不在本技能范围，需要时另行自建独立技能
+
 ## 启用（可选）
 
 Claude Code 只发现 `~/.claude/skills/` 下的技能，如需自动触发可建软链接：
