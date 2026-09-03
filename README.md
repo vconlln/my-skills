@@ -48,4 +48,3 @@ my-skills/
 ## 第三方来源致谢
 
 - [dev-workflow](dev-workflow/) 与 [skill-create](skill-create/) 源自 [xstongxue/best-skills](https://github.com/xstongxue/best-skills)（Apache 2.0，许可文本见 [licenses/APACHE-2.0.txt](licenses/APACHE-2.0.txt)）
-- [solution-design](solution-design/) 的质询式访谈与领域建模机制参考了 [mattpocock/skills](https://github.com/mattpocock/skills) 的 grilling / domain-modeling 思想，机制已完整中文化内置（质询访谈、术语表、ADR 纪律），未复制其原文
